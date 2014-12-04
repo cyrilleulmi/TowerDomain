@@ -1,52 +1,67 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace TowerDomain
 {
     public class Game
     {
-        private List<Tower> towers = new List<Tower>();
+        private readonly List<TowerContainer> towerContainers = new List<TowerContainer>();
 
         public Game()
         {
-            this.towers = new List<Tower>();
+            this.towerContainers = new List<TowerContainer>();
         }
 
-        public IEnumerable<Tower> Towers
+        public IEnumerable<ITower> Towers
         {
-            get { return towers; }
+            get { return towerContainers; }
         }
 
-        public void UpgradeRangeFromTower(Tower towerToUpgrade)
+        public void UpgradeRangeFromTower(ITower towerToUpgrade)
         {
-            foreach (var tower in this.Towers)
+            foreach (TowerContainer towerContainer in this.Towers)
             {
-                if (tower == towerToUpgrade)
+                if (towerContainer.Tower == towerToUpgrade || towerContainer == towerToUpgrade)
                 {
-                    Tower towerWithUpgradedRange = tower.UpgradeRange();
-                    this.towers.Remove(tower);
-                    this.towers.Add(towerWithUpgradedRange);
+                    Tower towerWithUpgradedRange = towerContainer.Tower.UpgradeRange();
+                    this.SwitchTowerWithOtherTower(towerToUpgrade, towerWithUpgradedRange);
                 }
             }
+        }
+
+        private int GetIndexOfTower(ITower towerToUpgrade)
+        {
+            int indexOfItem =
+                this.towerContainers.IndexOf(towerContainers.First(container => container == towerToUpgrade || container.Tower.Equals(towerToUpgrade)));
+            return indexOfItem;
         }
 
         public void UpgradePowerFromTower(Tower towerToUpgrade)
         {
-            foreach (var tower in this.Towers)
+        }
+
+        public void CreateNewTower(ITower tower)
+        {
+            this.towerContainers.Add(new TowerContainer() {Tower = tower});
+        }
+
+
+        public void UpgradeDamageFromTower(ITower towerToUpgrade)
+        {
+            foreach (TowerContainer towerContainer in this.Towers)
             {
-                if (tower == towerToUpgrade)
+                if (towerContainer.Tower == towerToUpgrade || towerContainer == towerToUpgrade)
                 {
-                    Tower towerWithUpgradedRange = tower.UpgradeRange();
-                    this.towers.Remove(tower);
-                    this.towers.Add(towerWithUpgradedRange);
+                    Tower towerWithUpgradedRange = towerContainer.Tower.UpgradeDamage();
+                    SwitchTowerWithOtherTower(towerToUpgrade, towerWithUpgradedRange);
                 }
             }
         }
 
-        public void CreateNewTower(Tower tower)
+        private void SwitchTowerWithOtherTower(ITower towerToRemove, ITower towerToAdd)
         {
-            this.towers.Add(tower);
+            var indexOfItem = GetIndexOfTower(towerToRemove);
+            towerContainers.ElementAt(indexOfItem).Tower = towerToAdd;
         }
-
-        
     }
 }
