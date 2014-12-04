@@ -1,0 +1,8 @@
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\MainWindow.baml
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\MainWindow.g.cs
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\App.g.cs
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface_MarkupCompile.cache
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.g.resources
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.Properties.Resources.resources
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.csproj.GenerateResource.Cache
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.csprojResolveAssemblyReference.cache

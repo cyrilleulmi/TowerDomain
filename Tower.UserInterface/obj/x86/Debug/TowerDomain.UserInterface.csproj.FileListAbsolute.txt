@@ -1,0 +1,15 @@
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\bin\Debug\Tower.UserInterface.exe
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\bin\Debug\Tower.UserInterface.pdb
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\bin\Debug\TowerDomain.dll
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\bin\Debug\TowerDomain.pdb
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\TowerDomain.UserInterface.csprojResolveAssemblyReference.cache
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\MainWindow.baml
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\MainWindow.g.cs
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\App.g.cs
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface_MarkupCompile.cache
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.g.resources
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.Properties.Resources.resources
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\TowerDomain.UserInterface.csproj.GenerateResource.Cache
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.exe
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.pdb
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface_MarkupCompile.lref

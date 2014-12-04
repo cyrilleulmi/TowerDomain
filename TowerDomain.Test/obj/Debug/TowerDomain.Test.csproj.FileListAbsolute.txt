@@ -11,3 +11,16 @@ c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.
 c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.csprojResolveAssemblyReference.cache
 c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.dll
 c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.pdb
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.Test.dll
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.Test.pdb
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.Core.dll
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.dll
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.dll
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.pdb
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.pdb
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.xml
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.Core.xml
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.csprojResolveAssemblyReference.cache
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.dll
+C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.pdb
