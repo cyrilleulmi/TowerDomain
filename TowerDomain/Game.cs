@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace TowerDomain
 {
@@ -18,14 +19,23 @@ namespace TowerDomain
 
         public void UpgradeRangeFromTower(Tower towerToUpgrade)
         {
+            Dictionary<Tower, Tower> towersToExchange = new Dictionary<Tower, Tower>();
+
             foreach (var tower in this.Towers)
             {
                 if (tower == towerToUpgrade)
                 {
                     Tower towerWithUpgradedRange = tower.UpgradeRange();
-                    this.towers.Remove(tower);
-                    this.towers.Add(towerWithUpgradedRange);
+                    towersToExchange.Add(tower, towerWithUpgradedRange);
                 }
+            }
+
+            foreach (var towerToExchange in towersToExchange)
+            {
+                int indexOfItem = this.towers.IndexOf(towerToExchange.Key);
+
+                towers.RemoveAt(indexOfItem);
+                towers.Insert(indexOfItem, towerToExchange.Value);
             }
         }
 

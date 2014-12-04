@@ -2,11 +2,16 @@
 {
     public class Tower
     {
-        internal Tower UpgradeRange()
+        public Tower()
         {
-            throw new System.NotImplementedException();
+            this.Range = 10;
         }
 
-        public int Range { get; set; }
+        internal Tower UpgradeRange()
+        {
+            return new TowerWithUpgradedRange();
+        }
+
+        public int Range { get; protected set; }
     }
 }
