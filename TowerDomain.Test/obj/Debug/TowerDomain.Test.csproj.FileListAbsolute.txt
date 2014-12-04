@@ -1,0 +1,13 @@
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.Test.dll
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.Test.pdb
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.Core.dll
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.dll
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.dll
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.pdb
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.pdb
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.xml
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.Core.pdb
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.Core.xml
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.csprojResolveAssemblyReference.cache
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.dll
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.pdb

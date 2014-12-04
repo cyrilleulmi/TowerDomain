@@ -1,0 +1,5 @@
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain\bin\Debug\TowerDomain.dll
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain\bin\Debug\TowerDomain.pdb
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain\obj\Debug\TowerDomain.dll
+c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain\obj\Debug\TowerDomain.pdb
+C:\Users\INF3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain\obj\Debug\TowerDomain.csprojResolveAssemblyReference.cache

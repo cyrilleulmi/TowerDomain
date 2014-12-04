@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerDomain", "TowerDomain\TowerDomain.csproj", "{9CF53759-C4D2-4927-8227-F09D1BD74208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerDomain.Test", "TowerDomain.Test\TowerDomain.Test.csproj", "{2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA53E6F2-18B5-4B3D-BA74-9AD58F46B691}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TowerDomain.vsmdi = TowerDomain.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TowerDomain.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CF53759-C4D2-4927-8227-F09D1BD74208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF53759-C4D2-4927-8227-F09D1BD74208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF53759-C4D2-4927-8227-F09D1BD74208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF53759-C4D2-4927-8227-F09D1BD74208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
