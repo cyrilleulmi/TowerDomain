@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3312a558-f61e-4eb0-b68f-ef15ba59dd69" name="INF3a-22@INF3A-22-PC 2014-12-04 13:54:35" runUser="INF3a-22-PC\INF3a-22" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Lokal" id="fb681a8a-89a2-4e20-9ea2-58ab23cd4f7a">
+    <Description>Dies sind die standardmäßigen Testeinstellungen für einen lokalen Testlauf.</Description>
+    <Deployment enabled="false" runDeploymentRoot="INF3a-22_INF3A-22-PC 2014-12-04 13_54_35">
+      <DeploymentItem filename="C:\Users\INF3a-22\documents\visual studio 2010\Projects\TowerDomain\packages\FluentAssertions.3.2.1\lib\net40\FluentAssertions.Core.dll" />
+      <DeploymentItem filename="c:\users\inf3a-22\documents\visual studio 2010\Projects\TowerDomain\TowerDomain\bin\Debug\TowerDomain.dll" />
+      <DeploymentItem filename="C:\Users\INF3a-22\documents\visual studio 2010\Projects\TowerDomain\packages\FluentAssertions.3.2.1\lib\net40\FluentAssertions.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-04T13:54:35.7088912+01:00" queuing="2014-12-04T13:54:37.9330184+01:00" start="2014-12-04T13:54:38.0990279+01:00" finish="2014-12-04T13:54:49.0856563+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DescriptionIsCorrect" storage="c:\users\inf3a-22\documents\visual studio 2010\projects\towerdomain\towerdomain.test\bin\debug\towerdomain.test.dll" id="32c37acd-e034-8a9a-81a9-623592864da9">
+      <Execution id="3899d4f6-a4dd-492e-a145-51ba3869dcd6" />
+      <TestMethod codeBase="C:/Users/INF3a-22/documents/visual studio 2010/Projects/TowerDomain/TowerDomain.Test/bin/Debug/TowerDomain.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TowerDomain.Test.GameTest, TowerDomain.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DescriptionIsCorrect" />
+    </UnitTest>
+    <UnitTest name="UpgradeTowerDamage" storage="c:\users\inf3a-22\documents\visual studio 2010\projects\towerdomain\towerdomain.test\bin\debug\towerdomain.test.dll" id="930547d4-1098-057c-9104-957b5450e476">
+      <Execution id="0f884409-083d-4963-be1f-9f5963559557" />
+      <TestMethod codeBase="C:/Users/INF3a-22/documents/visual studio 2010/Projects/TowerDomain/TowerDomain.Test/bin/Debug/TowerDomain.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TowerDomain.Test.GameTest, TowerDomain.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpgradeTowerDamage" />
+    </UnitTest>
+    <UnitTest name="UpgradeTowerRange" storage="c:\users\inf3a-22\documents\visual studio 2010\projects\towerdomain\towerdomain.test\bin\debug\towerdomain.test.dll" id="8d890fca-844e-1386-13c3-799569340644">
+      <Execution id="dbb7f157-5c52-4d56-8ca7-21e6f10da0c2" />
+      <TestMethod codeBase="C:/Users/INF3a-22/documents/visual studio 2010/Projects/TowerDomain/TowerDomain.Test/bin/Debug/TowerDomain.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TowerDomain.Test.GameTest, TowerDomain.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpgradeTowerRange" />
+    </UnitTest>
+    <UnitTest name="UpgradeTowerFirstRangeThanDamage" storage="c:\users\inf3a-22\documents\visual studio 2010\projects\towerdomain\towerdomain.test\bin\debug\towerdomain.test.dll" id="a4653ee0-5d2f-2161-ec81-d0d0b3a22158">
+      <Execution id="e440b153-77e2-4e1a-acf6-e752f2726201" />
+      <TestMethod codeBase="C:/Users/INF3a-22/documents/visual studio 2010/Projects/TowerDomain/TowerDomain.Test/bin/Debug/TowerDomain.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TowerDomain.Test.GameTest, TowerDomain.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpgradeTowerFirstRangeThanDamage" />
+    </UnitTest>
+    <UnitTest name="UpgradeTowerFirstDamageThanRange" storage="c:\users\inf3a-22\documents\visual studio 2010\projects\towerdomain\towerdomain.test\bin\debug\towerdomain.test.dll" id="cdbe3c6d-15c8-0d47-6d39-b1d55b9aafe5">
+      <Execution id="e3da3798-e39a-42ea-a22c-1af95946768a" />
+      <TestMethod codeBase="C:/Users/INF3a-22/documents/visual studio 2010/Projects/TowerDomain/TowerDomain.Test/bin/Debug/TowerDomain.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TowerDomain.Test.GameTest, TowerDomain.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpgradeTowerFirstDamageThanRange" />
+    </UnitTest>
+    <UnitTest name="BuildNewTower" storage="c:\users\inf3a-22\documents\visual studio 2010\projects\towerdomain\towerdomain.test\bin\debug\towerdomain.test.dll" id="0395d200-2ca3-6c02-bf2c-553f31b97ac1">
+      <Execution id="56c8395b-a91f-402a-bc16-1693196e5699" />
+      <TestMethod codeBase="C:/Users/INF3a-22/documents/visual studio 2010/Projects/TowerDomain/TowerDomain.Test/bin/Debug/TowerDomain.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TowerDomain.Test.GameTest, TowerDomain.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildNewTower" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Nicht in einer Liste enthaltene Ergebnisse" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0395d200-2ca3-6c02-bf2c-553f31b97ac1" executionId="56c8395b-a91f-402a-bc16-1693196e5699" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32c37acd-e034-8a9a-81a9-623592864da9" executionId="3899d4f6-a4dd-492e-a145-51ba3869dcd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d890fca-844e-1386-13c3-799569340644" executionId="dbb7f157-5c52-4d56-8ca7-21e6f10da0c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="930547d4-1098-057c-9104-957b5450e476" executionId="0f884409-083d-4963-be1f-9f5963559557" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdbe3c6d-15c8-0d47-6d39-b1d55b9aafe5" executionId="e3da3798-e39a-42ea-a22c-1af95946768a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4653ee0-5d2f-2161-ec81-d0d0b3a22158" executionId="e440b153-77e2-4e1a-acf6-e752f2726201" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="56c8395b-a91f-402a-bc16-1693196e5699" testId="0395d200-2ca3-6c02-bf2c-553f31b97ac1" testName="BuildNewTower" computerName="INF3A-22-PC" duration="00:00:00.0683671" startTime="2014-12-04T13:54:38.2350357+01:00" endTime="2014-12-04T13:54:39.2080913+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56c8395b-a91f-402a-bc16-1693196e5699">
+    </UnitTestResult>
+    <UnitTestResult executionId="3899d4f6-a4dd-492e-a145-51ba3869dcd6" testId="32c37acd-e034-8a9a-81a9-623592864da9" testName="DescriptionIsCorrect" computerName="INF3A-22-PC" duration="00:00:00.0033824" startTime="2014-12-04T13:54:39.2210921+01:00" endTime="2014-12-04T13:54:39.2350929+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3899d4f6-a4dd-492e-a145-51ba3869dcd6">
+    </UnitTestResult>
+    <UnitTestResult executionId="dbb7f157-5c52-4d56-8ca7-21e6f10da0c2" testId="8d890fca-844e-1386-13c3-799569340644" testName="UpgradeTowerRange" computerName="INF3A-22-PC" duration="00:00:05.7937369" startTime="2014-12-04T13:54:39.2540940+01:00" endTime="2014-12-04T13:54:45.0594260+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbb7f157-5c52-4d56-8ca7-21e6f10da0c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="0f884409-083d-4963-be1f-9f5963559557" testId="930547d4-1098-057c-9104-957b5450e476" testName="UpgradeTowerDamage" computerName="INF3A-22-PC" duration="00:00:00.8121025" startTime="2014-12-04T13:54:45.0774270+01:00" endTime="2014-12-04T13:54:45.8944738+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f884409-083d-4963-be1f-9f5963559557">
+    </UnitTestResult>
+    <UnitTestResult executionId="e3da3798-e39a-42ea-a22c-1af95946768a" testId="cdbe3c6d-15c8-0d47-6d39-b1d55b9aafe5" testName="UpgradeTowerFirstDamageThanRange" computerName="INF3A-22-PC" duration="00:00:03.0343333" startTime="2014-12-04T13:54:45.9104747+01:00" endTime="2014-12-04T13:54:48.9506486+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3da3798-e39a-42ea-a22c-1af95946768a">
+    </UnitTestResult>
+    <UnitTestResult executionId="e440b153-77e2-4e1a-acf6-e752f2726201" testId="a4653ee0-5d2f-2161-ec81-d0d0b3a22158" testName="UpgradeTowerFirstRangeThanDamage" computerName="INF3A-22-PC" duration="00:00:00.0007378" startTime="2014-12-04T13:54:48.9736499+01:00" endTime="2014-12-04T13:54:48.9786502+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e440b153-77e2-4e1a-acf6-e752f2726201">
+    </UnitTestResult>
+  </Results>
+</TestRun>

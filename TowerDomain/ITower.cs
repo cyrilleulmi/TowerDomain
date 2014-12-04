@@ -6,6 +6,12 @@ namespace TowerDomain
     {
         int Range { get; }
 
+        int Damage { get; }
+
+        string Description { get; }
+
         Tower UpgradeRange();
+
+        Tower UpgradeDamage();
     }
 }
