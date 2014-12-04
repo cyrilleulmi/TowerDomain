@@ -5,7 +5,7 @@
         xmlns:vm="clr-namespace:Tower.UserInterface.ViewModel">
     <Grid Margin="5">
         <ListView Name="icTower">
-                <Grid Margin="1" >
+            <Grid Margin="1" >
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -15,14 +15,18 @@
                         <RowDefinition Height="20"></RowDefinition>
                         <RowDefinition Height="20"></RowDefinition>
                         <RowDefinition Height="20"></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="5" Source="Images/picture_tower.png"></Image>
+                    </Grid.RowDefinitions>                    
+                <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="5" Source="Images/picture_tower.png">
+                    <ContextMenu>
+                        <MenuItem Command="{Binding UpdateStrength}"></MenuItem>
+                    </ContextMenu>
+                </Image>
                     <TextBlock Grid.Column="1" Grid.Row="0" Text="Range :"></TextBlock>
                     <TextBlock Grid.Column="1" Grid.Row="1" Text="Strength :"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="2" Text="Level :"></TextBlock>
-                <TextBlock Grid.Column="2" Grid.Row="0" Text="{Binding DisplayRange}"></TextBlock>
+                    <TextBlock Grid.Column="1" Grid.Row="2" Text="Level :"></TextBlock>
+                    <TextBlock Grid.Column="2" Grid.Row="0" Text="{Binding DisplayRange}"></TextBlock>
                     <TextBlock Grid.Column="2" Grid.Row="1" Text="{Binding DisplayStrength}"></TextBlock>
-                </Grid>
+            </Grid>
         </ListView>
     </Grid>
 </Window>
