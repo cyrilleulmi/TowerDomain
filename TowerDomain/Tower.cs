@@ -1,13 +1,13 @@
 ﻿namespace TowerDomain
 {
-    public class Tower
+    public class Tower : ITower
     {
         public Tower()
         {
             this.Range = 10;
         }
 
-        internal Tower UpgradeRange()
+        public Tower UpgradeRange()
         {
             return new TowerWithUpgradedRange();
         }

@@ -25,7 +25,7 @@ namespace TowerDomain.Test
             this.testee.CreateNewTower(tower);
 
             // Assert
-            this.testee.Towers.Count().Should().Be(1);
+            this.testee.TowerContainers.Count().Should().Be(1);
         }
 
         [TestMethod]
@@ -42,7 +42,7 @@ namespace TowerDomain.Test
             testee.UpgradeRangeFromTower(towerWithRangeUpgrade);
 
             // Assert
-            testee.Towers.ElementAt(0).Range.Should().BeGreaterThan(testee.Towers.ElementAt(1).Range);
+            testee.TowerContainers.ElementAt(0).Range.Should().BeGreaterThan(testee.TowerContainers.ElementAt(1).Range);
         }
     }
 }

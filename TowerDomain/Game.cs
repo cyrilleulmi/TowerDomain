@@ -5,56 +5,45 @@ namespace TowerDomain
 {
     public class Game
     {
-        private List<Tower> towers = new List<Tower>();
+        private readonly List<TowerContainer> towerContainers = new List<TowerContainer>();
 
         public Game()
         {
-            this.towers = new List<Tower>();
+            this.towerContainers = new List<TowerContainer>();
         }
 
-        public IEnumerable<Tower> Towers
+        public IEnumerable<ITower> TowerContainers
         {
-            get { return towers; }
+            get { return towerContainers; }
         }
 
-        public void UpgradeRangeFromTower(Tower towerToUpgrade)
+        public void UpgradeRangeFromTower(ITower towerToUpgrade)
         {
-            Dictionary<Tower, Tower> towersToExchange = new Dictionary<Tower, Tower>();
-
-            foreach (var tower in this.Towers)
+            foreach (TowerContainer towerContainer in this.TowerContainers)
             {
-                if (tower == towerToUpgrade)
+                if (towerContainer.Tower == towerToUpgrade)
                 {
-                    Tower towerWithUpgradedRange = tower.UpgradeRange();
-                    towersToExchange.Add(tower, towerWithUpgradedRange);
+                    Tower towerWithUpgradedRange = towerContainer.Tower.UpgradeRange();
+                    var indexOfItem = GetIndexOfTower(towerToUpgrade);
+                    towerContainers.ElementAt(indexOfItem).Tower = towerWithUpgradedRange;
                 }
             }
+        }
 
-            foreach (var towerToExchange in towersToExchange)
-            {
-                int indexOfItem = this.towers.IndexOf(towerToExchange.Key);
-
-                towers.RemoveAt(indexOfItem);
-                towers.Insert(indexOfItem, towerToExchange.Value);
-            }
+        private int GetIndexOfTower(ITower towerToUpgrade)
+        {
+            int indexOfItem =
+                this.towerContainers.IndexOf(towerContainers.First(container => container.Tower.Equals(towerToUpgrade)));
+            return indexOfItem;
         }
 
         public void UpgradePowerFromTower(Tower towerToUpgrade)
         {
-            foreach (var tower in this.Towers)
-            {
-                if (tower == towerToUpgrade)
-                {
-                    Tower towerWithUpgradedRange = tower.UpgradeRange();
-                    this.towers.Remove(tower);
-                    this.towers.Add(towerWithUpgradedRange);
-                }
-            }
         }
 
         public void CreateNewTower(Tower tower)
         {
-            this.towers.Add(tower);
+            this.towerContainers.Add(new TowerContainer() {Tower = tower});
         }
 
         
