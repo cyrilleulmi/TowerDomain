@@ -7,3 +7,8 @@ C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain\bin\Debug\TowerDomain
 C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain\bin\Debug\TowerDomain.pdb
 C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain\obj\Debug\TowerDomain.dll
 C:\Users\INF3a-05\Documents\GitHub\TowerDomain\TowerDomain\obj\Debug\TowerDomain.pdb
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain\bin\Debug\TowerDomain.dll
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain\bin\Debug\TowerDomain.pdb
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain\obj\Debug\TowerDomain.csprojResolveAssemblyReference.cache
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain\obj\Debug\TowerDomain.dll
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain\obj\Debug\TowerDomain.pdb

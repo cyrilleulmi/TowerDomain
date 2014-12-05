@@ -13,3 +13,8 @@ C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug
 C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.exe
 C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.pdb
 C:\Users\INF3a-05\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface_MarkupCompile.lref
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.exe
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.pdb
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\TowerDomain.UserInterface.csprojResolveAssemblyReference.cache
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\App.g.cs
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface_MarkupCompile.cache
