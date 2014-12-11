@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Windows;
 using System.ComponentModel;
+using TowerDomain.UserInterface;
 
 namespace Tower.UserInterface.ViewModel
 {
-    class MainViewModel :Window, INotifyPropertyChanged
+    class MainViewModel : BindableObject, INotifyPropertyChanged
     {
         private int range;
         public event PropertyChangedEventHandler PropertyChanged;
@@ -34,12 +35,6 @@ namespace Tower.UserInterface.ViewModel
         }
         
 
-    private void NotifyPropertyChanged(String info)
-    {
-        if (PropertyChanged != null)
-        {
-            PropertyChanged(this, new PropertyChangedEventArgs(info));
-        }
-    }
+
 }
 }

@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Linq.Expressions;
 using System.Collections.Generic;
 
-namespace SystemUpdate
+namespace TowerDomain.UserInterface
 {
     public abstract class BindableObject : INotifyPropertyChanged
     {
