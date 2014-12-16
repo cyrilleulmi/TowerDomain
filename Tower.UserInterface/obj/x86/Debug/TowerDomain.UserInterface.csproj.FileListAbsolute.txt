@@ -18,3 +18,13 @@ C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\T
 C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\TowerDomain.UserInterface.csprojResolveAssemblyReference.cache
 C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\App.g.cs
 C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface_MarkupCompile.cache
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\bin\Debug\Tower.UserInterface.exe
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\bin\Debug\Tower.UserInterface.pdb
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\bin\Debug\TowerDomain.dll
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\bin\Debug\TowerDomain.pdb
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface_MarkupCompile.lref
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\MainWindow.baml
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.g.resources
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\Tower.UserInterface.Properties.Resources.resources
+C:\Users\ch-tbo\Documents\GitHub\TowerDomain\Tower.UserInterface\obj\x86\Debug\TowerDomain.UserInterface.csproj.GenerateResource.Cache

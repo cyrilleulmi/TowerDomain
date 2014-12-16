@@ -11,7 +11,6 @@ namespace Tower.UserInterface.ViewModel
     class MainViewModel : BindableObject, INotifyPropertyChanged
     {
         private int range;
-        public event PropertyChangedEventHandler PropertyChanged;
 
         public MainViewModel()
         {
@@ -29,7 +28,7 @@ namespace Tower.UserInterface.ViewModel
                 if (value != range)
                 {
                     range = value;
-                    NotifyPropertyChanged("DisplayRange");
+                    NotifyPropertyChanged(() => DisplayRange);
                 }
             }
         }
