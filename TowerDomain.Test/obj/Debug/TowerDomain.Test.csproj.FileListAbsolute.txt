@@ -37,3 +37,16 @@ C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain.Test\bin\Debug\FluentAs
 C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.csprojResolveAssemblyReference.cache
 C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.dll
 C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.pdb
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.Test.dll
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.Test.pdb
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.Core.dll
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.dll
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.dll
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\bin\Debug\TowerDomain.pdb
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.pdb
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.xml
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.Core.pdb
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\bin\Debug\FluentAssertions.Core.xml
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.csprojResolveAssemblyReference.cache
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.dll
+D:\Schule\BS\Github\TowerDomain\TowerDomain.Test\obj\Debug\TowerDomain.Test.pdb

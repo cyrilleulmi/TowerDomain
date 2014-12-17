@@ -12,3 +12,8 @@ C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain\bin\Debug\TowerDomain.p
 C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain\obj\Debug\TowerDomain.csprojResolveAssemblyReference.cache
 C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain\obj\Debug\TowerDomain.dll
 C:\Users\ch-tbo\Documents\GitHub\TowerDomain\TowerDomain\obj\Debug\TowerDomain.pdb
+D:\Schule\BS\Github\TowerDomain\TowerDomain\bin\Debug\TowerDomain.dll
+D:\Schule\BS\Github\TowerDomain\TowerDomain\bin\Debug\TowerDomain.pdb
+D:\Schule\BS\Github\TowerDomain\TowerDomain\obj\Debug\TowerDomain.csprojResolveAssemblyReference.cache
+D:\Schule\BS\Github\TowerDomain\TowerDomain\obj\Debug\TowerDomain.dll
+D:\Schule\BS\Github\TowerDomain\TowerDomain\obj\Debug\TowerDomain.pdb

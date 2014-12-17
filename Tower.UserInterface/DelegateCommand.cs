@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace SystemUpdate
+namespace TowerDomain.UserInterface
 {
     public class DelegateCommand : ICommand
     {
