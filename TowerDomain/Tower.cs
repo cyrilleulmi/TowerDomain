@@ -18,7 +18,7 @@ namespace TowerDomain
         {
             get
             {
-                return String.Format(@"This tower deals {0} damage and has a range of {1}", Damage, Range);
+                return String.Format(@"Tower which deals {0} damage and has a range of {1}", Damage, Range);
             }
         }
 
@@ -30,6 +30,11 @@ namespace TowerDomain
         public virtual Tower UpgradeDamage()
         {
             return new TowerWithUpgradedDamage();
+        }
+
+        public override string ToString()
+        {
+            return this.Description;
         }
     }
 }

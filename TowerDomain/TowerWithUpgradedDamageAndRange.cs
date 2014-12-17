@@ -9,5 +9,15 @@ namespace TowerDomain
             this.Damage = 15;
             this.Range = 15;
         }
+
+        public override Tower UpgradeDamage()
+        {
+            return this;
+        }
+
+        public override Tower UpgradeRange()
+        {
+            return this;
+        }
     }
 }

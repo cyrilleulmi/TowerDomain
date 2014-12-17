@@ -1,0 +1,15 @@
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\bin\Debug\TowerDomain.Ui.exe.config
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\obj\Debug\TowerDomain.Ui.csprojResolveAssemblyReference.cache
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\obj\Debug\MainWindow.baml
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\obj\Debug\MainWindow.g.cs
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\obj\Debug\App.g.cs
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\obj\Debug\TowerDomain.Ui_MarkupCompile.cache
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\obj\Debug\TowerDomain.Ui.g.resources
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\obj\Debug\TowerDomain.Ui.Properties.Resources.resources
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\obj\Debug\TowerDomain.Ui.csproj.GenerateResource.Cache
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\bin\Debug\TowerDomain.Ui.exe
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\bin\Debug\TowerDomain.Ui.pdb
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\bin\Debug\TowerDomain.dll
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\bin\Debug\TowerDomain.pdb
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\obj\Debug\TowerDomain.Ui.exe
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Ui\obj\Debug\TowerDomain.Ui.pdb

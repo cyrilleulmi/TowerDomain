@@ -1,32 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
-using TowerDomain.UserInterface;
+using Tower.UserInterface.Annotations;
 using TowerDomain;
-using System.Collections.ObjectModel;
+using TowerDomain.UserInterface;
 
-namespace TowerDomain.UserInterface.ViewModel
+namespace Tower.UserInterface.ViewModel
 {
-    class MainViewModel : BindableObject, INotifyPropertyChanged
+    class MainViewModel : INotifyPropertyChanged
     {
         private int range;
-        public DelegateCommand UpdateRange {get;private set;}
-        public DelegateCommand AddTower {get;private set;}
-        new Game game = new Game();
-        private ObservableCollection<TowerContainer> _towers ;
+        private Game game;
+        private ObservableCollection<TowerContainer> towers ;
+
         public MainViewModel()
         {  
-            
-            TowerWithUpgradeDamage _selectedTower
-            UpdateRange = new DelegateCommand(executeRangeUpdate, canExecuteRangeUpdate);
-            AddTower = new DelegateCommand(executeAddTower, canExecuteAddTower);
+            this.game = new Game();
         }
         
 
-        public int DisplayRange
+
+        public int DisplayedRange
         {
             get 
             {
@@ -37,39 +30,31 @@ namespace TowerDomain.UserInterface.ViewModel
                 if (value != range)
                 {
                     range = value;
-                    NotifyPropertyChanged(() => DisplayRange);
+                    this.OnPropertyChanged("DisplayedRange");
                 }
             }
         }
-        private void executeRangeUpdate()  {
-            
 
-        
-        }
-        private void executeAddTower() {
-           Tower tower = new Tower();
-           game.CreateNewTower(tower);
-        }
-        private bool canExecuteAddTower() {
-           
-            if (!)
+        private TowerContainer selectedTower;
 
-        }
-        private TowerContainer _selectedTower;
         public TowerContainer SelectedTower
         {
-            get { return _selectedTower; }
-            set {
-                _selectedTower = value;
-                OnSelectedTowerChanged(value);
-                NotifyPropertyChanged(() => SelectedItem);
+            get { return selectedTower; }
+            set
+            {
+                this.selectedTower = value;
+                this.OnPropertyChanged("SelectedTower");
             }
                 
         }
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChangedEventHandler handler = PropertyChanged;
+            if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
-        
-
-
-}
 }

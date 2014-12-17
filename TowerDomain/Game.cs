@@ -23,8 +23,20 @@ namespace TowerDomain
             {
                 if (towerContainer.Tower == towerToUpgrade || towerContainer == towerToUpgrade)
                 {
-                    Tower towerWithUpgradedRange = towerContainer.Tower.UpgradeRange();
+                    ITower towerWithUpgradedRange = towerContainer.Tower.UpgradeRange();
                     this.SwitchTowerWithOtherTower(towerToUpgrade, towerWithUpgradedRange);
+                }
+            }
+        }
+
+        public void UpgradeDamageFromTower(ITower towerToUpgrade)
+        {
+            foreach (TowerContainer towerContainer in this.Towers)
+            {
+                if (towerContainer.Tower == towerToUpgrade || towerContainer == towerToUpgrade)
+                {
+                    ITower towerWithUpgradedRange = towerContainer.Tower.UpgradeDamage();
+                    SwitchTowerWithOtherTower(towerToUpgrade, towerWithUpgradedRange);
                 }
             }
         }
@@ -36,27 +48,11 @@ namespace TowerDomain
             return indexOfItem;
         }
 
-        public void UpgradePowerFromTower(Tower towerToUpgrade)
-        {
-        }
-
         public void CreateNewTower(ITower tower)
         {
             this.towerContainers.Add(new TowerContainer() {Tower = tower});
         }
 
-
-        public void UpgradeDamageFromTower(ITower towerToUpgrade)
-        {
-            foreach (TowerContainer towerContainer in this.Towers)
-            {
-                if (towerContainer.Tower == towerToUpgrade || towerContainer == towerToUpgrade)
-                {
-                    Tower towerWithUpgradedRange = towerContainer.Tower.UpgradeDamage();
-                    SwitchTowerWithOtherTower(towerToUpgrade, towerWithUpgradedRange);
-                }
-            }
-        }
 
         private void SwitchTowerWithOtherTower(ITower towerToRemove, ITower towerToAdd)
         {

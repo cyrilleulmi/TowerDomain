@@ -13,10 +13,9 @@
         {
             get
             {
-                return this.Tower.Description;
+                return this.Tower != null ? this.Tower.Description : "Tower";
             }
         }
-
 
         public int Range
         {
@@ -32,6 +31,11 @@
         public Tower UpgradeDamage()
         {
             return this.Tower.UpgradeDamage();
+        }
+
+        public override string ToString()
+        {
+            return this.Description;
         }
     }
 }

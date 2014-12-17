@@ -29,7 +29,6 @@
                     </Grid.RowDefinitions>
                     <Button Margin="1" Grid.Row="0" Command="{Binding UpgradeRange}">Upgrade</Button>
                     <Button Margin="1" Grid.Row="1" Command="{Binding UpgradeStrength}">Upgrade</Button>
-                    <Button Margin="1" Grid.Row="2" Command="{Binding UpgradeLevel}">Upgrade</Button>
                     <TextBlock Grid.Column="1" Grid.Row="0" Text="Range :"></TextBlock>
                     <TextBlock Grid.Column="1" Grid.Row="1" Text="Strength :"></TextBlock>
                     <TextBlock Grid.Column="1" Grid.Row="2" Text="Level :"></TextBlock>
@@ -37,6 +36,6 @@
                     <TextBlock Grid.Column="2" Grid.Row="1" Text="{Binding DisplayStrength}"></TextBlock>
                     <TextBlock Grid.Column="2" Grid.Row="2" Text="{Binding DisplayLevel}"></TextBlock>
         </Grid>
-        <Button Grid.Row="1" Grid.ColumnSpan="2" Command="{Binding AddTower}">Add Tower</Button>
+        <Button Grid.Row="1" Grid.ColumnSpan="2" Click="Button_Click_1">Add Tower</Button>
     </Grid>
 </Window>

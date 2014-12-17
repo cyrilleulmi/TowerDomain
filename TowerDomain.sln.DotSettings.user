@@ -1,4 +1,22 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=0E69C7D51F21487B9C7520DCCD15DD6D/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=0E69C7D51F21487B9C7520DCCD15DD6D/Name/@EntryValue">BuildNewTower</s:String>
-	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=0E69C7D51F21487B9C7520DCCD15DD6D/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:TowerDomain.Test.GameTest" type="MsTestTestClassElement" TypeName="TowerDomain.Test.GameTest" Project="2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884" /&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:TowerDomain.Test.GameTest.BuildNewTower" ParentId="MsTest:TowerDomain.Test.GameTest" type="MsTestTestMethodElement" MethodName="BuildNewTower" TypeName="TowerDomain.Test.GameTest" Project="2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884" /&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:TowerDomain.Test.GameTest.DescriptionIsCorrect" ParentId="MsTest:TowerDomain.Test.GameTest" type="MsTestTestMethodElement" MethodName="DescriptionIsCorrect" TypeName="TowerDomain.Test.GameTest" Project="2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884" /&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:TowerDomain.Test.GameTest.UpgradeTowerDamage" ParentId="MsTest:TowerDomain.Test.GameTest" type="MsTestTestMethodElement" MethodName="UpgradeTowerDamage" TypeName="TowerDomain.Test.GameTest" Project="2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884" /&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:TowerDomain.Test.GameTest.UpgradeTowerFirstDamageThanRange" ParentId="MsTest:TowerDomain.Test.GameTest" type="MsTestTestMethodElement" MethodName="UpgradeTowerFirstDamageThanRange" TypeName="TowerDomain.Test.GameTest" Project="2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884" /&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:TowerDomain.Test.GameTest.UpgradeTowerFirstRangeThanDamage" ParentId="MsTest:TowerDomain.Test.GameTest" type="MsTestTestMethodElement" MethodName="UpgradeTowerFirstRangeThanDamage" TypeName="TowerDomain.Test.GameTest" Project="2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884" /&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:TowerDomain.Test.GameTest.UpgradeTowerRange" ParentId="MsTest:TowerDomain.Test.GameTest" type="MsTestTestMethodElement" MethodName="UpgradeTowerRange" TypeName="TowerDomain.Test.GameTest" Project="2BA8AEF5-2445-42E9-B5F2-37DCA5DFF884" /&gt;&lt;/Elements&gt;&lt;/Session&gt;</s:String></wpf:ResourceDictionary>
+	
+	
+	
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=8DFE9A9F4F0B451886B52B9C0F9270BA/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=8DFE9A9F4F0B451886B52B9C0F9270BA/Name/@EntryValue">DescriptionIsCorrect</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=8DFE9A9F4F0B451886B52B9C0F9270BA/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements /&gt;&lt;/Session&gt;</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=B99A4B6E874E486AAAB1C386CBF2FCDB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=B99A4B6E874E486AAAB1C386CBF2FCDB/Name/@EntryValue">All tests from TowerDomain #2</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=B99A4B6E874E486AAAB1C386CBF2FCDB/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements /&gt;&lt;/Session&gt;</s:String>
+	
+	
+	
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=F99AA45030D7499793AE04816DB1A49B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=F99AA45030D7499793AE04816DB1A49B/Name/@EntryValue">GameTest</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=F99AA45030D7499793AE04816DB1A49B/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements /&gt;&lt;/Session&gt;</s:String>
+	
+	
+	
+	
+	
+	</wpf:ResourceDictionary>

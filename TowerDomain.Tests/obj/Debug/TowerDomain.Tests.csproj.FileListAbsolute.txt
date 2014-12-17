@@ -1,0 +1,13 @@
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\bin\Debug\TowerDomain.Tests.dll
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\bin\Debug\TowerDomain.Tests.pdb
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\bin\Debug\FluentAssertions.Core.dll
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\bin\Debug\FluentAssertions.dll
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\bin\Debug\TowerDomain.dll
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\bin\Debug\TowerDomain.pdb
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\bin\Debug\FluentAssertions.pdb
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\bin\Debug\FluentAssertions.xml
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\bin\Debug\FluentAssertions.Core.xml
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\obj\Debug\TowerDomain.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\obj\Debug\TowerDomain.Tests.dll
+C:\Users\Cyrille\Documents\GitHub\TowerDomain\TowerDomain.Tests\obj\Debug\TowerDomain.Tests.pdb
